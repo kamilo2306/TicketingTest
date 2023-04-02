@@ -53,6 +53,7 @@
             // 
             // txtQuantity
             // 
+            this.txtQuantity.BackColor = System.Drawing.SystemColors.HotTrack;
             this.txtQuantity.Location = new System.Drawing.Point(111, 48);
             this.txtQuantity.Name = "txtQuantity";
             this.txtQuantity.Size = new System.Drawing.Size(91, 20);
@@ -131,12 +132,13 @@
             // 
             // cmdCalculate
             // 
+            this.cmdCalculate.BackColor = System.Drawing.Color.Lime;
             this.cmdCalculate.Location = new System.Drawing.Point(295, 264);
             this.cmdCalculate.Name = "cmdCalculate";
             this.cmdCalculate.Size = new System.Drawing.Size(108, 35);
             this.cmdCalculate.TabIndex = 10;
             this.cmdCalculate.Text = "Calculate";
-            this.cmdCalculate.UseVisualStyleBackColor = true;
+            this.cmdCalculate.UseVisualStyleBackColor = false;
             this.cmdCalculate.Click += new System.EventHandler(this.cmdCalculate_Click);
             // 
             // TicketsForm
