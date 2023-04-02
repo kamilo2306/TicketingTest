@@ -28,6 +28,10 @@ namespace Ticketing
 
         private void cmdCalculate_Click(object sender, EventArgs e)
         {
+            
+            //add a try and catch when text box is null :)
+
+
             mQuantity = int.Parse(txtQuantity.Text);
 
             if (chkDiscount.Checked)
