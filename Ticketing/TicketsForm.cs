@@ -12,7 +12,7 @@ namespace Ticketing
     public partial class TicketsForm : Form
     {
         TicketPrice mTicketPrice;
-        int mSection = 2;
+        int mSection = 3;
         int mQuantity = 0;
         bool mDiscount = false;
 
@@ -28,6 +28,8 @@ namespace Ticketing
 
         private void cmdCalculate_Click(object sender, EventArgs e)
         {
+
+            //new changes
             mQuantity = int.Parse(txtQuantity.Text);
 
             if (chkDiscount.Checked)
