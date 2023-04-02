@@ -53,6 +53,7 @@
             // 
             // txtQuantity
             // 
+            this.txtQuantity.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtQuantity.Location = new System.Drawing.Point(111, 48);
             this.txtQuantity.Name = "txtQuantity";
             this.txtQuantity.Size = new System.Drawing.Size(91, 20);

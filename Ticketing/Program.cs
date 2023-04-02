@@ -18,6 +18,7 @@ namespace Ticketing
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new TicketsForm());
             //ejemplo
+            //ejemplo despues de haberme duvuelto
         }
     }
 }
